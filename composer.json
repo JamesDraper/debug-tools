@@ -1,0 +1,18 @@
+{
+    "name": "james-draper/debug-tools",
+    "description": "Simple code debugging tools.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": ["Debug.php"]
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "scripts": {
+        "phpcs": "phpcs Debug.php"
+    }
+}
